@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color:transparent;
+}
+input,button{
+    border: 0;
+    outline: 0;
+  }
+
+ ul,li{
+    list-style: none;
+  }
+  
+a{
+    text-decoration: none;
+}
+  
