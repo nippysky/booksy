@@ -1,10 +1,19 @@
 import "./App.css";
+import { BrowserRouter as Router , Routes ,Route } from "react-router-dom";
+import Hairsalon from "./Components/Hairsalon/Hairsalon";
 
 function App() {
   return (
-    <h1 className="text-3xl text-blue-500 font-bold underline text-center">
-      We are Ready To Start Coding. Nigeria | Kenya
-    </h1>
+    <>
+      <Router>
+        <Routes>
+
+          <Route path="/" element={<Hairsalon/>} />
+
+          
+        </Routes>
+      </Router>
+    </>
   );
 }
 
