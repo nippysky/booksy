@@ -69,9 +69,25 @@ function HairSalonSliderCategories() {
               {/* MAP SALON JSON DATA */}
                 {salonJson?.map((item) =>
                     <div 
-                        className="flex flex-col"
+                        className="relative flex flex-col"
                         key={item.id}
                     >
+
+                    {/* RATINGS AND REVIEWS*/}
+                    <div 
+                        className='absolute flex flex-col items-center gap-[1rem] top-[0rem] right-[1.2rem] bg-[#181717] opacity-[0.9] text-white px-[1.4rem] py-[1rem] rounded-bl-2xl  rounded-tr-2xl'
+                    >
+                        <p 
+                          className='text-[2.5rem] font-bold'
+                        >
+                            {item.ratings}
+                        </p>
+                        <span
+                           className='text-[1.5rem]'
+                        >
+                            {item.reviews} reviews
+                        </span>
+                    </div>
 
                         <img 
                             className="w-[615px] h-[430px] rounded-2xl object-cover"   
