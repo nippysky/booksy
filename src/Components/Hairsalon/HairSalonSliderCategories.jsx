@@ -36,7 +36,7 @@ function HairSalonSliderCategories() {
     let settings = {
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToScroll: 1,
       };
 
   return (
@@ -66,7 +66,7 @@ function HairSalonSliderCategories() {
                 {...settings}
             >
 
-              {/* MAP SALON JSON DATA */}
+              {/* MAP SALONSHOP JSON DATA IN SLIDER COMPONENTS */}
                 {salonJson?.map((item) =>
                     <div 
                         className="relative flex flex-col"
