@@ -1,3 +1,55 @@
+
+// POPULAR TREATMENTS
+export const popularTreatMents = [
+                {
+                        id: 1,
+                        name: "Braid JacksonVille"
+                },
+                {
+                        id: 2,
+                        name: "Hair JacksonVille"
+                },
+                {
+                        id: 3,
+                        name: "Trim JacksonVille"
+                },
+                {
+                        id: 4,
+                        name: "Wig JacksonVille"
+                },
+                {
+                        id: 5,
+                        name: "Haircut JacksonVille"
+                },
+                {
+                        id: 6,
+                        name: "Perm JacksonVille"
+                },
+                {
+                        id: 7,
+                        name: "Tatto JacksonVille"
+                },
+                ,
+                {
+                        id: 8,
+                        name: "Dye JacksonVille"
+                },
+                ,
+                {
+                        id: 9,
+                        name: "Hair extension JacksonVille"
+                },
+                ,
+                {
+                        id: 10,
+                        name: "Box braids JacksonVille"
+                },
+                
+
+        ]
+
+
+// SALON SHOP SERVICES
 export const SalonServiceTypes = [
                 {
                         name:"Kids s/s",
@@ -85,9 +137,9 @@ export const salonJson = [
             reviews: 23,
             aboutUs: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
              images: [
-                "https://d2zdpiztbgorvt.cloudfront.net/us/images/155866/cover_154808865863.jpeg?size=640x427",
-                //   "https://example.com/salon1-image2.jpg",
-                //   "https://example.com/salon1-image3.jpg"
+                "https://d2zdpiztbgorvt.cloudfront.net/region1/us/123096/biz_photo/234e98cddb3247aaae1690e3d89f51-nzuri-a-styling-lounge-biz-photo-28ef816fda5043bd9a94decd091eda-booksy.jpeg?size=640x427",
+                "https://d2zdpiztbgorvt.cloudfront.net/region1/us/123096/biz_photo/06e6f9add4e047b980f14145b58070-nzuri-a-styling-lounge-biz-photo-8b2f89defdee498b99ab4914feaa66-booksy.jpeg?size=640x427",
+                "https://d2zdpiztbgorvt.cloudfront.net/region1/us/123096/biz_photo/0673fd598f11415ebcb165fbe06404-nzuri-a-styling-lounge-biz-photo-6c04dc75a7b543a19788d1e66ca041-booksy.jpeg?size=640x427"
             ]
     },
     {
@@ -141,9 +193,9 @@ export const salonJson = [
             reviews: 15,
             aboutUs: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             images: [
-                "https://d2zdpiztbgorvt.cloudfront.net/region1/us/62459/biz_photo/ed25b27a0892414f8d2bef02f84195-groomgod-barbershop-biz-photo-2e3bd4c8ff2a4c16a1baf5c76c9b4c-booksy.jpeg?size=640x427",
-                //   "https://example.com/salon1-image2.jpg",
-                //   "https://example.com/salon1-image3.jpg"
+                "https://d2zdpiztbgorvt.cloudfront.net/region1/us/123096/biz_photo/234e98cddb3247aaae1690e3d89f51-nzuri-a-styling-lounge-biz-photo-28ef816fda5043bd9a94decd091eda-booksy.jpeg?size=640x427",
+                "https://d2zdpiztbgorvt.cloudfront.net/region1/us/123096/biz_photo/06e6f9add4e047b980f14145b58070-nzuri-a-styling-lounge-biz-photo-8b2f89defdee498b99ab4914feaa66-booksy.jpeg?size=640x427",
+                "https://d2zdpiztbgorvt.cloudfront.net/region1/us/123096/biz_photo/0673fd598f11415ebcb165fbe06404-nzuri-a-styling-lounge-biz-photo-6c04dc75a7b543a19788d1e66ca041-booksy.jpeg?size=640x427"
             ]
     }
 ]
